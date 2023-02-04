@@ -1,3 +1,7 @@
+# Heading 1
+## Heading 2
+### Heading 3
+
 In this class I have learned:
 
 1. How an IP address, DNS, and SSL are all related

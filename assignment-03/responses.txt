@@ -1,0 +1,3 @@
+A DNS translates domain names to IP addresses to allow devices to communicate.
+Cookies are small blocks of data placed on a computer that identifies users.
+The three essential parts of a URL are the protocol, the domain, and the path.

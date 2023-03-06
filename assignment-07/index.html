@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Bread Survey
+        </title>
+        <!--Define character set-->
+        <meta charset:"utf-8">
+        <!--Provide description of page-->
+        <meta name="description" content="A survey about bread.">
+        <!--Provide author information-->
+        <meta name="author" content="Rachel Neal">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {background-color: #dcedc9;}
+        h1 {color: darkgreen}
+    </style>
+    </head>
+
+    <body>
+        <h1>
+            All About Bread!
+        </h1>
+        <form action="http://www.example.com/" method="post"></form>
+        <fieldset>
+            <legend>Bread Survey</legend>
+
+            <label>What is your favorite type of bread?<br />
+                <input type="text" name="type" id="type_input" autofocus />
+            </label>
+
+            <hr />
+
+            <label>How do you like to eat bread?<br />
+                <input id="toast" type="checkbox" name="method" value="toast">
+                <label for="toast">As toast</label>
+                <br />
+                <input id="sandwich" type="checkbox" name="method" value="sandwich">
+                <label for="sandwich">In a sandwich</label>
+                <br />
+                <input id="soup" type="checkbox" name="method" value="soup">
+                <label for="soup">With soup</label>
+                <br />
+                <input id="other" type="checkbox" name="method" value="other">
+                <label for="other">Other</label>
+            </label>
+
+            <hr />
+    
+            <label>How often do you eat bread?<br />
+                <input id="daily" type="radio" name="freq" value="daily"> 
+                <label for="daily">Every day</label>
+                <br />
+                <input id="weekly" type="radio" name="freq"value="weekly" >
+                <label for="weekly">A few times a week</label>
+                <br />
+                <input id="monthly" type="radio" name="freq" value="monthly">
+                <label for="monthly">A few times a month</label>
+                <br />
+                <input id="never" type="radio" name="freq" value="never">
+                <label for="never">Never</label>
+         
+                <br />
+                <br />
+
+            <input type="submit" name="submit" value="Sumbit" />
+            </fieldset>
+
+            <h1>
+                <a href="about.html">View a picture of bread!</a>
+            </h1>
+    </body>
+</html>

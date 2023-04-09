@@ -1,0 +1,51 @@
+body {
+    background-color: #CEECF2;
+    font-family: DMSans;
+    text-align: center;
+    color: #3F688C;
+}
+
+div {
+    display: inline-block;
+    width: 75%;
+    border: 5px solid #F2AF5C;
+}
+
+img {
+    border-radius: 3%;
+    border: 5px solid #CEECF2;
+    width: 80%;
+}
+
+h1 {
+    font-family: DMSerifDisplay;
+}
+
+h2 {
+    font-family: DMSerifDisplay;
+}
+
+p {
+    width: 600px;
+    margin: auto;
+}
+
+.sunrise-image {
+    background-color: #F2D479;
+}
+
+#title {
+    font-size: 36px;
+    background-color: #F2AF88;
+    margin: auto;
+}
+
+#title:hover {
+    color: #CEECF2;
+}
+
+p::first-letter {
+    font-size: 20px;
+    font-family: DMSerifDisplay;
+}
+

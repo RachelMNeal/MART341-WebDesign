@@ -1,0 +1,121 @@
+body {
+    background-color: lightblue;
+    margin: 10px;
+    font-family: DMSans;
+    }
+
+.main {
+    background-color: white;
+    width: 75%;
+    margin: auto;
+    padding: 10px;
+    }
+
+h1 {
+    color: darkslategray;
+    text-align: center;
+    font-family: DMSerifDisplay;
+    }
+
+h2 {
+    text-align: center;
+    color: slategray;
+    font-family: DMSerifDisplay;
+    }
+
+p {
+    padding: 20px;
+    }
+
+.index-div {
+    min-height: 250px;
+}
+
+.index-image {
+    width: 75%;
+    margin: auto;
+    }
+
+/* Menu */
+header {
+    position: fixed;
+    background-color: cadetblue;
+    color: white;
+    font-family: DMSans;
+    width: 100%;
+    height: 4em;
+    top: 0px;
+    left: 0px;
+    text-align: right;
+}
+
+.menu-item {
+    display: inline-block;
+    background-color: lightblue;
+    margin: 1em .2em; 
+    padding: .5em 1em;
+    border-radius: 1em;
+    min-width: 6em;
+    text-align: center;
+}
+
+.menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    margin: 0.5em 0 0 -1em;
+    color: white;
+    background-color: cadetblue;
+    z-index: 1;
+    border-radius: 1em;
+}
+
+.menu-item:hover {
+    background-color: darkslategray;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown-item {
+    display:block;
+    text-align: center;
+    margin: 0;
+    padding: 0.5em 1em 0.5em 1em;
+    min-width: 6em;
+}
+
+.dropdown-item:hover {
+    background-color: darkslategray;
+}
+
+#threats-menu:hover {
+    border-radius: 1em;
+}
+
+.dropdown:hover {
+    border-radius: 1em 1em 0 0;
+}
+
+#first-bar {
+    margin-top: 4em;
+}
+
+.site-name {
+    color: white;
+    float: left;
+    min-width: 6em;
+    padding: 0.5em 1em;
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    font-size: 18pt;
+}

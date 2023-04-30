@@ -1,0 +1,2 @@
+My website is my digital portfolio. As a multimedia communicator, it's important for me to be able to showcase a variety of media in one place. This site serves as a central location to view the variety of work that I do.
+Responsive design matters because people view the web on different devices, so a website should be able to look good and operate effectively on any device.

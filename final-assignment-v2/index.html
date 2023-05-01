@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title> Rachel M. Neal
+    </title>
+    <meta charset:"utf-8">
+    <meta name="description" content="A webpage about Rachel M. Neal.">
+    <meta name="author" content="Rachel Neal">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="./css/fonts.css" />
+    <link rel="stylesheet" type="text/css" href="./css/style.css" />
+    <link rel="stylesheet" type="text/css" href="./css/form-style.css" />
+</head>
+    
+<body>
+    <header>
+        <div class="site-name">
+            <a href="home.html">Rachel M. Neal</a>
+        </div>
+        <div class="menu-item">
+            <a href="index.html">About</a>
+        </div>
+        <div class="menu-item">
+            <a href="resume.html">Resume</a>
+        </div>
+        <div class="menu-item dropdown">
+            <a href="#">Portfolio</a>
+            <img src="images/down.png" alt="A down arrow icon" id="menu-icon">
+          <div class="dropdown-content">
+            <div class="dropdown-item">
+                <a href="media.html">Media &amp; Design</a>
+            </div>
+            <div class="dropdown-item">
+                <a href="photos.html">Photography</a>
+            </div>
+            <div class="dropdown-item" id="threats">
+                <a href="video.html">Videography</a>
+            </div>
+          </div>  
+        </div>
+    </header>
+
+    </br>
+    </br>
+    </br>
+    </br>
+
+    <div class="main index-div" id="first-bar">
+        <span>
+        <img src="images/headshot.JPG" class="headshot" alt="A headshot of Rachel Neal, a blonde woman with glasses. She smiles as she sits in a field of yellow grass." />
+        <p class="index-text"> 
+            Hi! I'm Rachel Neal, and I am an environmental communicator with a knack for using multimedia to convey complex ideas. I am passionate about environmental literacy as a tool to form more equitable societies and address our most pressing problems. In my work, I hope to reduce the knowledge gap between scientists and the public to empower people to make more informed decisions in their communities.
+        </p>
+        <p class="index-text">
+            Outside of the professional realm, you can likely find me dabbling in arts and crafts, fly fishing, or playing with my dog, Appa.
+        </p>
+    </span>
+    </div>
+
+</br>
+
+    <div class="contact">
+        <p>
+            <a href = "mailto: rae.m.neal@gmail.com">rae.m.neal&#64;gmail.com</a> // <a href="tel:9122664235">(912)266-4235</a>
+        </p>
+    </div>
+
+    </br>
+
+    <hr width="75%"/>
+
+    <div>
+        <h1>
+            Contact Me
+        </h1>
+        <form id="fcf-form-id" class="fcf-form-class" method="post" action="contact-form-process.php">
+        
+            <div class="fcf-form-group">
+                <label for="Name" class="fcf-label">Name</label>
+                <div class="fcf-input-group">
+                    <input type="text" id="Name" name="Name" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Email" class="fcf-label">Email Address</label>
+                <div class="fcf-input-group">
+                    <input type="email" id="Email" name="Email" class="fcf-form-control" required>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <label for="Message" class="fcf-label">Message</label>
+                <div class="fcf-input-group">
+                    <textarea id="Message" name="Message" class="fcf-form-control" rows="6" maxlength="3000" required></textarea>
+                </div>
+            </div>
+    
+            <div class="fcf-form-group">
+                <button type="submit" id="fcf-button" class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block">Submit</button>
+            </div>    
+        </form>
+    </div>
+
+</br>
+</br>
+
+</body>
+</html>
